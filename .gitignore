@@ -1,5 +1,6 @@
 # Binary
 .waybar-tui
+waybar-tui-linux-*
 waybar-tui.exe
 
 # Go build cache and artifacts

@@ -24,24 +24,39 @@ Browse, install, apply and delete Waybar themes from a keyboard-driven interface
 
 ## Installation
 
+### Option 1 — Binary release (no Go required)
+
+Download `waybar-tui-linux-x86_64` from the [latest release](https://github.com/yourusername/waybar-tui/releases), then:
+
+```bash
+chmod +x waybar-tui-linux-x86_64
+./waybar-tui-linux-x86_64
+```
+
+### Option 2 — From source with installer (recommended for Omarchy)
+
+```bash
+git clone https://github.com/yourusername/waybar-tui.git
+cd waybar-tui
+./install.sh
+```
+
+The installer builds the binary, places it in `~/.local/bin/`, and automatically adds the Hyprland window rules for the floating window behavior.
+
+### Option 3 — From source manually
+
 ```bash
 git clone https://github.com/yourusername/waybar-tui.git
 cd waybar-tui
 go build -o .waybar-tui .
-chmod +x waybar-tui
+./waybar-tui
 ```
 
-If you are on Omarchy, add this window rule to `~/.config/hypr/hyprland.conf` to get the floating centered window:
+If you are on Omarchy, add these lines to `~/.config/hypr/hyprland.conf` to get the floating centered window:
 
 ```
 windowrule = tag +floating-window, match:class org.omarchy.waybar-tui
 windowrule = opacity 1.0 1.0, match:class org.omarchy.waybar-tui
-```
-
-Then run with:
-
-```bash
-./waybar-tui
 ```
 
 ## Theme structure

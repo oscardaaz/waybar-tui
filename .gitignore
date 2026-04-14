@@ -1,0 +1,34 @@
+# Binary
+.waybar-tui
+waybar-tui.exe
+
+# Go build cache and artifacts
+*.o
+*.a
+*.so
+*.test
+*.out
+/dist/
+/bin/
+
+# Go module download cache (not needed in repo)
+/vendor/
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Environment and secrets
+.env
+.env.*
+*.pem
+*.key
+
+# Test output
+coverage.out
+coverage.html

@@ -1,0 +1,2 @@
+#!/bin/bash
+exec omarchy-launch-or-focus-tui "$(dirname "$(realpath "$0")")/.waybar-tui"

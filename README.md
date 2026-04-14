@@ -30,7 +30,7 @@ Browse, install, apply and delete Waybar themes from a keyboard-driven interface
 
 ### Option 1 — Binary release (no Go required)
 
-Download `waybar-tui-linux-x86_64` from the [latest release](https://github.com/yourusername/waybar-tui/releases), then:
+Download `waybar-tui-linux-x86_64` from the [latest release](https://github.com/oscardaaz/waybar-tui/releases), then:
 
 ```bash
 chmod +x waybar-tui-linux-x86_64
@@ -40,7 +40,7 @@ chmod +x waybar-tui-linux-x86_64
 ### Option 2 — From source with installer (recommended for Omarchy)
 
 ```bash
-git clone https://github.com/yourusername/waybar-tui.git
+git clone https://github.com/oscardaaz/waybar-tui.git
 cd waybar-tui
 ./install.sh
 ```
@@ -50,7 +50,7 @@ The installer builds the binary, places it in `~/.local/bin/`, and automatically
 ### Option 3 — From source manually
 
 ```bash
-git clone https://github.com/yourusername/waybar-tui.git
+git clone https://github.com/oscardaaz/waybar-tui.git
 cd waybar-tui
 go build -o .waybar-tui .
 ./waybar-tui

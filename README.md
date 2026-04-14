@@ -2,7 +2,7 @@
 
 A terminal UI for managing Waybar themes, built with Go and Bubble Tea.
 
-Inspired by https://github.com/OldJobobo/wayflipper
+Inspired by [OldJobobo Wayflipper](https://github.com/OldJobobo/wayflipper/).
 
 Browse, install, apply and delete Waybar themes from a keyboard-driven interface that automatically adapts to your terminal color scheme. Designed to work seamlessly with [Omarchy](https://omarchy.org/).
 
